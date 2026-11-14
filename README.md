@@ -16,7 +16,7 @@ SkillPath AI is an adaptive career learning platform for students. It compares r
 - Daily learning goals, study check-ins, a seven-day activity view, and goal streaks.
 - Progress history, resource bookmarks, and a contextual AI mentor.
 - Six Gemini agents: Profile Analysis, Skill Gap Analysis, Career Matching, Learning Recommendation, Progress Evaluation, and AI Mentor.
-- Google sign-in with Firebase/Firestore, local learner registration stored in the browser, and an Alex Rivera demo sandbox.
+- Google sign-in with Firebase/Firestore, local email-and-password learner accounts stored in the browser, and an Alex Rivera demo sandbox.
 - Optional animated Three.js background with a user-facing toggle.
 
 ## Tech stack
@@ -69,7 +69,8 @@ The Express server listens on port `3000`. Open `http://localhost:3000`. Use the
 | `npm run preview` | Preview the Vite build |
 | `npm run lint` | TypeScript check (`tsc --noEmit`) |
 | `npm run typecheck` | TypeScript check (`tsc --noEmit`) |
-| `npm test` | Run the included Node test suites |
+| `npm test` | Run the included unit and API tests |
+
 
 For a production-style local run, build the app and set `NODE_ENV=production` before starting the server.
 
@@ -116,3 +117,5 @@ firebase-applet-config.json  Firebase web app configuration
 ## License
 
 No license file is included. Unless a license is added, this project is not explicitly licensed for reuse.
+
+
